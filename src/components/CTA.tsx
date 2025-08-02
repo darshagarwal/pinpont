@@ -27,7 +27,7 @@ const CTA = () => {
             </button>
           </div>
 
-          <div className="flex items-center justify-center space-x-8 pt-8">
+          {/*<div className="flex items-center justify-center space-x-8 pt-8">
             <div className="flex items-center space-x-2">
               <div className="flex">
                 {[...Array(5)].map((_, i) => (
@@ -44,7 +44,7 @@ const CTA = () => {
             <div className="text-white">
               <span className="font-bold">1000+</span> venues
             </div>
-          </div>
+          </div>*/}
 
           <div className="pt-8">
             <p className="text-blue-100 text-sm">
