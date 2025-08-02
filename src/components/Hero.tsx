@@ -38,7 +38,7 @@ const Hero = () => {
               </button>*/}
             </div>
 
-            <div className="flex items-center space-x-8 pt-4">
+            {/*<div className="flex items-center space-x-8 pt-4">
               <div className="text-center">
                 <div className="text-2xl font-bold text-gray-900">500K+</div>
                 <div className="text-sm text-gray-600">Downloads</div>
@@ -51,7 +51,7 @@ const Hero = () => {
                 <div className="text-2xl font-bold text-gray-900">4.8★</div>
                 <div className="text-sm text-gray-600">App Rating</div>
               </div>
-            </div>
+            </div>*/}
           </div>
 
           {/* App Preview */}
