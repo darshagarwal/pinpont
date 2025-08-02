@@ -22,7 +22,11 @@ const Header = () => {
               alt="PinPoint Logo"
               className="w-8 h-8 rounded-lg object-cover"
             />
-            <span className="text-2xl font-bold text-gray-900">PinPoint</span>
+            <button 
+              onClick={() => scrollToSection('home')}
+              className="text-2xl font-bold text-gray-900">
+              PinPoint
+            </button>
           </div>
 
 
@@ -46,10 +50,7 @@ const Header = () => {
             >
               Venues
             </button>
-            <button
-              onClick={() => scrollToSection('cta')}
-              className="bg-gradient-to-r from-blue-600 to-cyan-500 text-white px-6 py-2 rounded-full hover:shadow-lg transform hover:-translate-y-0.5 transition-all duration-200"
-            >
+            <button className="bg-gradient-to-r from-blue-600 to-cyan-500 text-white px-6 py-2 rounded-full hover:shadow-lg transform hover:-translate-y-0.5 transition-all duration-200">
               Download App
             </button>
           </nav>
@@ -85,10 +86,7 @@ const Header = () => {
               >
                 Venues
               </button>
-              <button
-                onClick={() => scrollToSection('cta')}
-                className="bg-gradient-to-r from-blue-600 to-cyan-500 text-white px-6 py-3 rounded-full text-center hover:shadow-lg transition-all duration-200"
-              >
+              <button className="bg-gradient-to-r from-blue-600 to-cyan-500 text-white px-6 py-3 rounded-full text-center hover:shadow-lg transition-all duration-200">
                 Download App
               </button>
             </div>

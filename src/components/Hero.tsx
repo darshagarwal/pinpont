@@ -3,7 +3,7 @@ import { ArrowRight, Play, MapPin } from 'lucide-react';
 
 const Hero = () => {
   return (
-    <section className="pt-16 bg-gradient-to-br from-blue-50 via-white to-cyan-50 min-h-screen flex items-center overflow-x-hidden">
+    <section id="home" className="pt-16 bg-gradient-to-br from-blue-50 via-white to-cyan-50 min-h-screen flex items-center overflow-x-hidden">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20">
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           {/* Content */}
