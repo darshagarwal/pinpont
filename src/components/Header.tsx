@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import  { useState } from 'react';
 import { Menu, X, Navigation } from 'lucide-react';
 
 const Header = () => {
@@ -17,11 +17,14 @@ const Header = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
           <div className="flex items-center space-x-2">
-            <div className="w-8 h-8 bg-gradient-to-br from-blue-600 to-cyan-500 rounded-lg flex items-center justify-center">
-              <Navigation className="w-5 h-5 text-white" />
-            </div>
+            <img
+              src="/images/logo.jpg"
+              alt="PinPoint Logo"
+              className="w-8 h-8 rounded-lg object-cover"
+            />
             <span className="text-2xl font-bold text-gray-900">PinPoint</span>
           </div>
+
 
           {/* Desktop Navigation */}
           <nav className="hidden md:flex items-center space-x-8">
