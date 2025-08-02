@@ -3,7 +3,7 @@ import { ArrowRight, Play, MapPin } from 'lucide-react';
 
 const Hero = () => {
   return (
-    <section className="pt-16 bg-gradient-to-br from-blue-50 via-white to-cyan-50 min-h-screen flex items-center">
+    <section className="pt-16 bg-gradient-to-br from-blue-50 via-white to-cyan-50 min-h-screen flex items-center overflow-x-hidden">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20">
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           {/* Content */}
@@ -13,12 +13,14 @@ const Hero = () => {
                 <MapPin className="w-4 h-4 mr-2" />
                 Indoor Navigation Revolution
               </div>
-              <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-gray-900 leading-tight">
-                Never Get Lost
-                <span className="block text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-cyan-500">
+              <h1 className="text-3xl sm:text-5xl md:text-6xl font-bold text-gray-900 leading-snug break-words whitespace-normal pb-2">
+                Never Get Lost{' '}
+                <span className="inline text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-cyan-500">
                   Indoors Again
                 </span>
               </h1>
+
+
               <p className="text-xl text-gray-600 leading-relaxed max-w-2xl">
                 Real-time blue dot navigation for malls, theaters, airports, and more. 
                 Find any store, seat, or destination with turn-by-turn directions—just like Google Maps, but indoors.
@@ -60,14 +62,14 @@ const Hero = () => {
                 <div className="h-6 bg-gray-900 flex items-center justify-center">
                   <div className="w-20 h-1 bg-white rounded-full"></div>
                 </div>
-                
+
                 {/* App Interface */}
                 <div className="p-4 space-y-4">
                   <div className="flex items-center justify-between">
                     <h3 className="font-semibold text-gray-900">Westfield Mall</h3>
                     <div className="w-3 h-3 bg-blue-500 rounded-full animate-pulse"></div>
                   </div>
-                  
+
                   <div className="bg-gray-100 rounded-lg p-3">
                     <div className="flex items-center space-x-2">
                       <div className="w-4 h-4 bg-gray-400 rounded"></div>
