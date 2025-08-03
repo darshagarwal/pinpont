@@ -28,7 +28,9 @@ const Hero = () => {
             </div>
 
             <div className="flex flex-col sm:flex-row gap-4">
-              <button className="group bg-gradient-to-r from-blue-600 to-cyan-500 text-white px-8 py-4 rounded-full font-semibold flex items-center justify-center hover:shadow-xl transform hover:-translate-y-1 transition-all duration-300">
+              <button 
+                onClick={() => window.location.href = 'cta'}
+                className="group bg-gradient-to-r from-blue-600 to-cyan-500 text-white px-8 py-4 rounded-full font-semibold flex items-center justify-center hover:shadow-xl transform hover:-translate-y-1 transition-all duration-300">
                 Download Free App
                 <ArrowRight className="w-5 h-5 ml-2 group-hover:translate-x-1 transition-transform duration-200" />
               </button>
