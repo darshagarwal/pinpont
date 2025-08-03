@@ -27,6 +27,12 @@ const Team = () => {
       gradient: 'from-cyan-500 to-cyan-600'
     },
     {
+      name: 'Shubhankar',
+      role: 'Head of Data Science & AI',
+      icon: Brain,
+      gradient: 'from-teal-500 to-teal-600'
+    },
+    {
       name: 'Mehul',
       role: 'Chief Marketing Officer (CMO)',
       icon: Megaphone,
@@ -50,12 +56,7 @@ const Team = () => {
       icon: Search,
       gradient: 'from-indigo-500 to-indigo-600'
     },
-    {
-      name: 'Shubhankar',
-      role: 'Head of Data Science & AI',
-      icon: Brain,
-      gradient: 'from-teal-500 to-teal-600'
-    },
+    
     {
       name: 'Ritwik',
       role: 'Head of Customer Experience & Support',
