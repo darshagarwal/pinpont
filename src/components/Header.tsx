@@ -1,5 +1,5 @@
 import  { useState } from 'react';
-import { Menu, X, Navigation } from 'lucide-react';
+import { Menu, X } from 'lucide-react';
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -34,23 +34,27 @@ const Header = () => {
           <nav className="hidden md:flex items-center space-x-8">
             <button 
               onClick={() => scrollToSection('features')}
-              className="text-gray-700 hover:text-blue-600 transition-colors duration-200"
-            >
+              className="text-gray-700 hover:text-blue-600 transition-colors duration-200">
               Features
             </button>
             <button 
               onClick={() => scrollToSection('how-it-works')}
-              className="text-gray-700 hover:text-blue-600 transition-colors duration-200"
-            >
+              className="text-gray-700 hover:text-blue-600 transition-colors duration-200">
               How It Works
             </button>
             <button 
               onClick={() => scrollToSection('venues')}
-              className="text-gray-700 hover:text-blue-600 transition-colors duration-200"
-            >
+              className="text-gray-700 hover:text-blue-600 transition-colors duration-200">
               Venues
             </button>
-            <button className="bg-gradient-to-r from-blue-600 to-cyan-500 text-white px-6 py-2 rounded-full hover:shadow-lg transform hover:-translate-y-0.5 transition-all duration-200">
+            <button 
+              onClick={() => scrollToSection('team')}
+              className="text-gray-700 hover:text-blue-600 transition-colors duration-200">
+              Team
+            </button>
+            <button
+              onClick={()=> scrollToSection('cta')}
+              className="bg-gradient-to-r from-blue-600 to-cyan-500 text-white px-6 py-2 rounded-full hover:shadow-lg transform hover:-translate-y-0.5 transition-all duration-200">
               Download App
             </button>
           </nav>

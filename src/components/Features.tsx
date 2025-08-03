@@ -1,4 +1,3 @@
-import React from 'react';
 import { Navigation, Search, Camera, Route, Calendar, Map } from 'lucide-react';
 
 const Features = () => {
@@ -45,12 +44,15 @@ const Features = () => {
     <section id="features" className="py-20 bg-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center space-y-4 mb-16">
-          <h2 className="text-4xl sm:text-5xl font-bold text-gray-900">
-            Powerful Features for
+         <h2 className="text-4xl sm:text-5xl font-bold text-gray-900 leading-[1.2]">
+            <span className="block">Powerful Features for</span>
             <span className="block text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-cyan-500">
-              Indoor Navigation
+              Indoor <span className="inline-block pb-2">Navigation</span>
             </span>
           </h2>
+
+
+
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
             Everything you need to navigate indoor spaces with confidence and ease.
           </p>

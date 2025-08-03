@@ -1,4 +1,3 @@
-import React from 'react';
 import { Download, ArrowRight, Star } from 'lucide-react';
 
 const CTA = () => {
