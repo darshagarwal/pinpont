@@ -40,12 +40,12 @@ const Hero = () => {
                   Download Free App
                   <ArrowRight className="w-5 h-5 ml-2 group-hover:translate-x-1 transition-transform duration-200" />
                 </button>
-                <button 
+                {/*<button 
                   onClick={() => setIsModalOpen(true)}
                   className="group flex items-center justify-center px-8 py-4 border-2 border-gray-200 rounded-full font-semibold hover:border-blue-300 hover:bg-blue-50 transition-all duration-200">
                   <Play className="w-5 h-5 mr-2 group-hover:scale-110 transition-transform duration-200" />
                   Watch Demo
-                </button>
+                </button>*/}
               </div>
 
               {/*<div className="flex items-center space-x-8 pt-4">
