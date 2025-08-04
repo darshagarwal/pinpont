@@ -4,8 +4,17 @@ import { ArrowRight, Play, MapPin, X } from 'lucide-react';
 const Hero = () => {
   const [isModalOpen, setIsModalOpen] = useState(false);
   const [isVideoLoaded, setIsVideoLoaded] = useState(false);
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   const demoVideo = "/demo.mp4";
+
+  const scrollToSection = (sectionId: string) => {
+    const element = document.getElementById(sectionId);
+    if (element) {
+      element.scrollIntoView({ behavior: 'smooth' });
+    }
+    setIsMenuOpen(false);
+  };
 
   return (
     <>
@@ -35,7 +44,7 @@ const Hero = () => {
 
               <div className="flex flex-col sm:flex-row gap-4">
                 <button 
-                  onClick={() => window.location.href = 'cta'}
+                  onClick={() => scrollToSection('cta')}
                   className="group bg-gradient-to-r from-blue-600 to-cyan-500 text-white px-8 py-4 rounded-full font-semibold flex items-center justify-center hover:shadow-xl transform hover:-translate-y-1 transition-all duration-300">
                   Download Free App
                   <ArrowRight className="w-5 h-5 ml-2 group-hover:translate-x-1 transition-transform duration-200" />

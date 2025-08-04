@@ -90,6 +90,12 @@ const Header = () => {
               >
                 Venues
               </button>
+              <button 
+                onClick={() => scrollToSection('team')}
+                className="text-left text-gray-700 hover:text-blue-600 transition-colors duration-200"
+                >
+                Team 
+              </button>
               <button className="bg-gradient-to-r from-blue-600 to-cyan-500 text-white px-6 py-3 rounded-full text-center hover:shadow-lg transition-all duration-200">
                 Download App
               </button>
