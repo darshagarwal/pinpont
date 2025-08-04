@@ -28,7 +28,7 @@ const Team = () => {
     },
     {
       name: 'Shubhankar',
-      role: 'Head of Data Science & AI',
+      role: 'Vice President (VP)',
       icon: Brain,
       gradient: 'from-teal-500 to-teal-600'
     },
